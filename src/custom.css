@@ -1,0 +1,11 @@
+/* src/index.css or a custom styles.css */
+
+/* Tailwind utilities */
+@layer utilities {
+    .overview-hero-line {
+      @apply flex flex-1 gap-[.75em] bg-repeat-x bg-contain h-[3em]; /* Tailwind utilities */
+      background-image: url('https://assets-global.website-files.com/65ddbdd3c4bfbc5790b41fbc/65ef1d2b153723ecc2ca43e1_yellow-underline-element-4.svg');
+      background-position: 0%;
+    }
+  }
+  
